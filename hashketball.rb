@@ -166,6 +166,6 @@ end
 
 def player_numbers(team)
   game_hash.map do |numbers|
-    numbers[:home][:players][:number]
+    numbers[:home][:team_name][:players][:number]
   end
 end
