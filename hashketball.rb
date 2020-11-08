@@ -1,6 +1,5 @@
 # Write your code below game_hash
 
-require 'pry'
 
 def game_hash
   {
@@ -165,6 +164,5 @@ def team_names
   end
 end
 
-def player_numbers(team_name) # Brooklyn Nets
-  
+def player_numbers(team)
 end
