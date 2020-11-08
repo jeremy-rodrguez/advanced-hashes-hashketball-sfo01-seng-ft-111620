@@ -153,6 +153,7 @@ def shoe_size(player_search)
 end
 
 def team_colors(team_input)
+  binding.pry
   if team_input == "Charlotte Hornets" 
     return game_hash[:away][:colors]
   else return game_hash[:home][:colors]
