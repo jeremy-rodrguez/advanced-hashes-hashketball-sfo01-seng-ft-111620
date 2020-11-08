@@ -1,6 +1,6 @@
 # Write your code below game_hash
 
-
+require 'pry'
 
 def game_hash
   {
@@ -166,7 +166,5 @@ def team_names
 end
 
 def player_numbers(team_name) # Brooklyn Nets
-  game_hash.each do |team, numbers|
-    numbers[:home][:players][:player_name][:number]
-  end
+  
 end
