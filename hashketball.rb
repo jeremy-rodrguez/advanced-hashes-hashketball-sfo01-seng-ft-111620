@@ -166,7 +166,7 @@ def team_names
 end
 
 def player_numbers(team_name) # Brooklyn Nets
-  game_hash.map do |team, numbers|
+  game_hash.each do |team, numbers|
     numbers[:home][:players][:number]
   end
 end
