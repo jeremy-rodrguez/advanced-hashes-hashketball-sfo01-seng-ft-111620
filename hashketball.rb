@@ -162,4 +162,5 @@ end
 
 def team_names(team)
   binding.pry
+  game_hash
 end
