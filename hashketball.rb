@@ -167,6 +167,6 @@ end
 
 def player_numbers(team_name) # Brooklyn Nets
   game_hash.each do |team, numbers|
-    numbers[:home][:players][:number]
+    numbers[:home][:players][:player_name][:number]
   end
 end
