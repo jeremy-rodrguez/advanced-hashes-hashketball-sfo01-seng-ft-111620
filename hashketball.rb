@@ -159,6 +159,5 @@ def team_colors(team_input)
   end
 end
 
-def team_names(team_name)
-  binding.pry
+def team_names(team)
 end
