@@ -159,7 +159,7 @@ def team_colors(team_input)
   end
 end
 
-def team_names(team)
+def team_names
   binding.pry
   game_hash
 end
