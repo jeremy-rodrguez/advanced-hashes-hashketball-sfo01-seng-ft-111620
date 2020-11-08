@@ -1,6 +1,6 @@
 # Write your code below game_hash
 
-
+require 'pry'
 
 def game_hash
   {
@@ -160,4 +160,5 @@ def team_colors(team_input)
 end
 
 def team_names(teams)
+  binding.pry
 end
